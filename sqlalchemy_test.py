@@ -3,11 +3,12 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import Column, Integer, String, MetaData, Table
 from sqlalchemy.sql import exists    
+from sqlalchemy.exc import OperationalError
 
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///stock.db"
 
-engine = create_engine('mysql+pymysql://root:cov45154551@localhost:3306/test')
+engine = create_engine('mysql+pymysql://root:cov45154551@localhost:3306/yixin')
 
 session = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
