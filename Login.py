@@ -176,7 +176,7 @@ class login(object):
         self.label_2.setObjectName("label_2")
         self.listView = QtWidgets.QListView(Dialog)
         self.listView.setGeometry(QtCore.QRect(-20, -10, 1141, 771))
-        self.listView.setStyleSheet("background-image: url(\"C:/Users/KEVIN/Desktop/Login_system/Login_system/login_system\");\n"
+        self.listView.setStyleSheet("background-image: url(\"C:/Users/Kevin/Desktop/Login_system/login_system.png\");\n"
 "background-color: rgb(255, 255, 255);\n"
 "")
         self.listView.setObjectName("listView")

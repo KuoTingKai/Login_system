@@ -30,7 +30,7 @@ class change_PW(object):
 		self.pushButton.setObjectName("pushButton")
 		self.listView = QtWidgets.QListView(Dialog)
 		self.listView.setGeometry(QtCore.QRect(-20, 0, 1141, 771))
-		self.listView.setStyleSheet("background-image: url(\"C:/Users/KEVIN/Desktop/Login_system/Login_system/login_system\");\n"
+		self.listView.setStyleSheet("background-image: url(\"C:/Users/Kevin/Desktop/Login_system/login_system.png\");\n"
 "background-color: rgb(255, 255, 255);\n"
 "")
 		self.listView.setObjectName("listView")
